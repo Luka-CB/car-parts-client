@@ -1,0 +1,34 @@
+.home-container {
+  width: 100%;
+  height: calc(100vh - 70px);
+  display: flex;
+  justify-content: space-between;
+
+  .posts-wrapper {
+    width: 1350px;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 50px 0;
+
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    &::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px rgb(199, 199, 199);
+      border-radius: 10px;
+      background-color: rgb(66, 68, 70);
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: rgb(207, 207, 207);
+      border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+      background: rgb(250, 250, 250);
+    }
+
+    @import "./Post";
+  }
+}

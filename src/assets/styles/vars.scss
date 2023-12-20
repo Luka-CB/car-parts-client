@@ -1,0 +1,57 @@
+:root {
+  --bg-color: aliceblue;
+  --bg-color-hover: rgb(231, 244, 255);
+  --bg-color-alt: #f7f7f7;
+  --text-color: black;
+  --text-color-alt: rgb(95, 95, 95);
+
+  --btn-color: rgb(53, 53, 53);
+  --btn-color-hover: rgb(0, 0, 0);
+  --btn-text-color: rgb(193, 193, 193);
+  --btn-text-color-hover: rgb(255, 255, 255);
+
+  --primary: #c52987;
+  --primary-hover: #fc25a6;
+  --primary-trans: #fc25a60f;
+
+  --success: #379237;
+  --success-hover: #54b435;
+  --success-trans: #55b4350f;
+
+  --warning: #ffb100;
+  --warning-hover: #db9900;
+  --warning-trans: #db99000f;
+
+  --danger: #952323;
+  --danger-hover: #d10a0a;
+  --danger-trans: #9523231c;
+}
+
+[data-theme="dark"] {
+  --bg-color: #2c3333;
+  --bg-color-hover: #212727;
+  --bg-color-alt: rgb(36, 36, 36);
+  --text-color: white;
+  --text-color-alt: rgb(204, 204, 204);
+
+  --btn-color: rgb(217, 217, 217);
+  --btn-color-hover: rgb(253, 253, 253);
+  --btn-text-color: rgb(84, 84, 84);
+  --btn-text-color-hover: rgb(0, 0, 0);
+
+  --primary: #ff8080;
+  --primary-hover: #ff5e5e;
+  --primary-trans: #ff5e5e0f;
+
+  --success: #00dfa2;
+  --success-hover: #06ffbc;
+  --success-trans: #06ffbc0f;
+
+  --warning: #feff86;
+  --warning-hover: #ffff4d;
+  --warning-trans: #ffff4d0f;
+
+  --danger: #bb2525;
+  --danger-hover: #f42b2b;
+  --danger-trans: #bb252516;
+}

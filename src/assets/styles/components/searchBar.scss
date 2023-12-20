@@ -1,0 +1,38 @@
+.search-wrapper {
+  background-color: var(--bg-color);
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.256);
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: var(--bg-color-hover);
+  }
+
+  .icon-wrapper {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .search-icon {
+      color: var(--primary);
+      font-size: 1.3rem;
+    }
+  }
+
+  input {
+    flex: 1;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: var(--text-color);
+    font-size: medium;
+    padding-left: 10px;
+  }
+}
